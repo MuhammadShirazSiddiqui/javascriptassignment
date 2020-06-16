@@ -62,9 +62,9 @@
 
 
 
-// Chapter # 2 => Question # 5                                              //not done                    
+// Chapter # 2 => Question # 5                                              //confusion                  
 // var pizza = "pizza";
-// for(var i = 0; i <)                                                      
+// alert("pizza\npizz\npiz\npi\np ")                                                      
 
 
 
@@ -102,7 +102,7 @@
 
 
 
-// Chapter # 3 => Question # 3                                              //not done
+// Chapter # 3 => Question # 3                                              //one condition remaining
 // var birthyear = 1995;
 // document.write("My Birthyear is "+birthyear+"<br>");
 // document.write("Date type of my declared variable is number");           
@@ -337,9 +337,9 @@
 
 
 
-// Chapter # 6-9 => Question # 4,5                                         // not done
-// var table = parseInt(prompt("Type a number"))
-// if (table === undefined || null)
+// Chapter # 6-9 => Question # 4,5                                         
+// var table = prompt("Type a number");
+// if (table === "")
 // {
 //     for (var i = 1; i <= 10; i++){
 //         document.write(`5 x ${i} = ${5*i} <br>`);
@@ -363,15 +363,16 @@
 
 
 
-// Chapter # 9-11 => Question # 1                                          //case sensitive issue
-// var city = prompt("Enter City Name:");
+// Chapter # 9-11 => Question # 1                                          
+// var city_name = prompt("Enter City Name:");
+// var city = city_name.toLocaleLowerCase();
 // if(city === "karachi"){
 //     document.write(`City of Lights`);
 // } 
-// else if(city === "Lahore"){
+// else if(city === "lahore"){
 //     document.write(`Welcome to Lahore`);
 // }
-// else if(city === "Islamabad"){
+// else if(city === "islamabad"){
 //     document.write(`Welcome to Islamabad`);
 // }
 // else{
@@ -433,33 +434,28 @@
 
 
 
-// Chapter # 9-11 => Question # 7                                                               //one condition missing
+// Chapter # 9-11 => Question # 7                                                               
 //  var numberGenerator = Math.floor(Math.random() * 10) + 1;
 //  var secretNumber = parseInt(prompt("Type a number between 1 to 10:"));
 //  document.write(`Generated Number: ${numberGenerator} <br>`);
+//  document.write(`Secret Number: ${secretNumber} <br>`);
+
 //  if(secretNumber >= 0 && secretNumber <= 10)
 //  {
-//     document.write(`Secret Number: ${secretNumber} <br>`);
-//     var newNumber = secretNumber;
+//     if(numberGenerator === secretNumber){
+//         document.write(`<b>Bingo! Correct answer</b>`);
+//      }
+//      else if(numberGenerator === (secretNumber+1)){
+//         document.write(`Close enough to correct answer`);
+//     }
+//     else{
+//         document.write(`Better luck next time!`);
+//      }
 //  }
 //  else{
-//     document.write(`Secret Number: ${secretNumber} <br>`);
 //     document.write(`Secret Number is not between 1 to 10 <br>`);
 //  }
  
-//  if(numberGenerator === newNumber){
-//     document.write(`<b>Bingo! Correct answer</b>`);
-//  }
-//  else if(numberGenerator === (secretNumber+1)){
-//     document.write(`Close enough to correct answer`);
-//  }
-//  else if(numberGenerator === (secretNumber-1)){
-//     document.write(`Close enough to correct answer`);
-//  }
-//  else if(numberGenerator ){
-//     document.write(`Number is not between 1 to 10`);
-//  }
-
 
 
 // Chapter # 9-11 => Question # 8
@@ -690,7 +686,7 @@
 
 
 
-// Chapter # 14-16 => Question # 9                                                          // not done
+// Chapter # 14-16 => Question # 9                                                                          // not done
 // var colorArray = ["Black", "Blue", "Orange", "Green", "Red", "Yellow", "Pink", "Purple", "Brown"];
 
 
@@ -801,10 +797,10 @@
 
 
 // Chapter # 17-20 => Question # 6(a)
-document.write(`<b>Counting:</b> <br><br>`);
-for(var i=1;i<=15; i++) {
-    document.write(`${i}, `)
-}
+// document.write(`<b>Counting:</b> <br><br>`);
+// for(var i=1;i<=15; i++) {
+//     document.write(`${i}, `)
+// }
 
 
 
